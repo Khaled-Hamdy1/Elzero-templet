@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link rel="stylesheet" href="../fontawesome/css/all.min.css" />
+    <style>
+      .icon-container i {
+        font-size: 40px;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .icon-container:hover i {
+        animation: heartBeat 0.6s infinite;
+      }
+
+      @keyframes heartBeat {
+        0% {
+          transform: scale(1);
+        }
+
+        20% {
+          transform: scale(1.2);
+        }
+
+        40% {
+          transform: scale(1);
+        }
+
+        60% {
+          transform: scale(1.2);
+        }
+
+        80% {
+          transform: scale(1);
+        }
+
+        100% {
+          transform: scale(1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Font Awesome icon animation on hover</h2>
+    <div class="icon-container">
+      <i class="fa fa-heartbeat"></i>
+    </div>
+  </body>
+</html>

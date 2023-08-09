@@ -1,0 +1,110 @@
+.files-page {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+
+.files-statistics {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  justify-content: center;
+  position: relative;
+}
+
+.files-statistics__item {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-block: 5px;
+  border: 1px solid #eee;
+  font-size: 13px;
+  border-radius: 5px;
+}
+
+.files-statistics__item i {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.files-statistics__item-upload {
+  width: fit-content;
+  margin: 10px auto 0;
+  padding: 10px 15px;
+  background-color: #0075ff;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.files {
+  width: calc(100% - 300px);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.files__item {
+  min-width: 260px;
+  height: fit-content;
+  font-size: 16px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  color: #888;
+}
+
+.files__item i {
+  text-align: left;
+}
+
+.files__item img {
+  width: 64px;
+  height: 64px;
+  margin: 15px auto;
+}
+
+.files__item-name {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.files-statistics__item-upload:hover .de7k {
+  -webkit-animation-name: fa-bounce;
+  animation-name: fa-bounce;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+  animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+  animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+  animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(
+    --fa-animation-iteration-count,
+    infinite
+  );
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(
+    --fa-animation-timing,
+    cubic-bezier(0.28, 0.84, 0.42, 1)
+  );
+  animation-timing-function: var(
+    --fa-animation-timing,
+    cubic-bezier(0.28, 0.84, 0.42, 1)
+  );
+}

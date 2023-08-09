@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Files</title>
+    <link rel="stylesheet" href="../styles/master.css" />
+    <link rel="stylesheet" href="../styles/files.css" />
+    <link rel="stylesheet" href="../fontawesome/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <aside>
+        <h3 class="aside__title">Khaled</h3>
+        <ul class="menu">
+          <li>
+            <a href="index.html">
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="settings.html">
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html">
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html">
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="courses.html">
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>Courses</span>
+            </a>
+          </li>
+          <li>
+            <a href="friends.html">
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>Friends</span>
+            </a>
+          </li>
+          <li>
+            <a href="files.html">
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span>Files</span>
+            </a>
+          </li>
+          <li>
+            <a href="plans.html">
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <main>
+        <nav class="main__nav">
+          <div class="main__nav-search">
+            <i class="fas fa-search nav-icon"></i>
+            <input
+              type="text"
+              class="main__nav-search__input"
+              placeholder="Type A Keyword"
+            />
+          </div>
+          <div class="main__nav-user">
+            <i class="fa-regular fa-bell fa-lg"></i>
+            <img src="../imgs/avatar.png" alt="image" width="32" />
+          </div>
+        </nav>
+        <h1 class="title">Files</h1>
+        <div class="files-page">
+          <div class="files-statistics">
+            <h2>Files Statistics</h2>
+            <div class="files-statistics__item">
+              <i
+                class="fa-regular fa-file-pdf"
+                style="color: #0075ff; background-color: rgb(0 117 255 / 20%)"
+              ></i>
+              <article style="width: calc(100% - 40px); line-height: 13px">
+                <p>PDF Files</p>
+                <p style="color: #888; text-align: right">6.3GB</p>
+                <p style="color: #888">130</p>
+              </article>
+            </div>
+            <div class="files-statistics__item">
+              <i
+                class="fa-regular fa-images"
+                style="color: #22c55e; background-color: rgb(34 197 94 / 20%)"
+              ></i>
+              <article style="width: calc(100% - 40px); line-height: 13px">
+                <p>Images</p>
+                <p style="color: #888; text-align: right">3.5GB</p>
+                <p style="color: #888">115</p>
+              </article>
+            </div>
+            <div class="files-statistics__item">
+              <i
+                class="fa-regular fa-images"
+                style="color: #f44336; background-color: rgb(244 67 54 / 20%)"
+              ></i>
+              <article style="width: calc(100% - 40px); line-height: 13px">
+                <p>Word Files</p>
+                <p style="color: #888; text-align: right">3.2GB</p>
+                <p style="color: #888">110</p>
+              </article>
+            </div>
+            <div class="files-statistics__item">
+              <i
+                class="fa-regular fa-images"
+                style="color: #f59e0b; background-color: rgb(245 158 11 / 20%)"
+              ></i>
+              <article style="width: calc(100% - 40px); line-height: 13px">
+                <p>CSV Files</p>
+                <p style="color: #888; text-align: right">2.9GB</p>
+                <p style="color: #888">99</p>
+              </article>
+            </div>
+            <button class="files-statistics__item-upload">
+              <i class="fa-solid fa-angles-up de7k"></i>
+              Upload
+            </button>
+          </div>
+          <!-- Files List -->
+          <div class="files">
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/pdf.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.pdf</h3>
+              <article>
+                <p class="files__item-name">Elzero</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>20/06/2020</span><span>5.5MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/avi.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.avi</h3>
+              <article>
+                <p class="files__item-name">Admin</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>12.5MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/eps.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.eps</h3>
+              <article>
+                <p class="files__item-name">Uploader</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>2.7MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/psd.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.psd</h3>
+              <article>
+                <p class="files-statistics__item-name">Osama</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>15.1MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/dll.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.dll</h3>
+              <article>
+                <p class="files__item-name">Coder</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>2.2MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/png.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.png</h3>
+              <article>
+                <p class="files__item-name">Designer</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>1.1MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/pdf.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.pdf</h3>
+              <article>
+                <p class="files__item-name">Elzero</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>20/06/2020</span><span>5.5MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/avi.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.avi</h3>
+              <article>
+                <p class="files__item-name">Admin</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>12.5MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/eps.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.eps</h3>
+              <article>
+                <p class="files__item-name">Uploader</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>2.7MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/psd.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.psd</h3>
+              <article>
+                <p class="files-statistics__item-name">Osama</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>15.1MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/dll.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.dll</h3>
+              <article>
+                <p class="files__item-name">Coder</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>2.2MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/png.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.png</h3>
+              <article>
+                <p class="files__item-name">Designer</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>1.1MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/pdf.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.pdf</h3>
+              <article>
+                <p class="files__item-name">Elzero</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>20/06/2020</span><span>5.5MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/avi.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.avi</h3>
+              <article>
+                <p class="files__item-name">Admin</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>12.5MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/eps.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.eps</h3>
+              <article>
+                <p class="files__item-name">Uploader</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>2.7MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/psd.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.psd</h3>
+              <article>
+                <p class="files-statistics__item-name">Osama</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>15.1MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/dll.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.dll</h3>
+              <article>
+                <p class="files__item-name">Coder</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>2.2MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/png.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.png</h3>
+              <article>
+                <p class="files__item-name">Designer</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>1.1MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/pdf.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.pdf</h3>
+              <article>
+                <p class="files__item-name">Elzero</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>20/06/2020</span><span>5.5MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/avi.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.avi</h3>
+              <article>
+                <p class="files__item-name">Admin</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>12.5MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/eps.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.eps</h3>
+              <article>
+                <p class="files__item-name">Uploader</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>2.7MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/psd.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.psd</h3>
+              <article>
+                <p class="files-statistics__item-name">Osama</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>15.1MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/dll.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.dll</h3>
+              <article>
+                <p class="files__item-name">Coder</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>2.2MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/png.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.png</h3>
+              <article>
+                <p class="files__item-name">Designer</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>1.1MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/pdf.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.pdf</h3>
+              <article>
+                <p class="files__item-name">Elzero</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>20/06/2020</span><span>5.5MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/avi.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.avi</h3>
+              <article>
+                <p class="files__item-name">Admin</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>12.5MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/eps.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.eps</h3>
+              <article>
+                <p class="files__item-name">Uploader</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>2.7MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/psd.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.psd</h3>
+              <article>
+                <p class="files-statistics__item-name">Osama</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>15.1MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/dll.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.dll</h3>
+              <article>
+                <p class="files__item-name">Coder</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>2.2MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/png.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.png</h3>
+              <article>
+                <p class="files__item-name">Designer</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>1.1MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/pdf.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.pdf</h3>
+              <article>
+                <p class="files__item-name">Elzero</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>20/06/2020</span><span>5.5MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/avi.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.avi</h3>
+              <article>
+                <p class="files__item-name">Admin</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>12.5MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/eps.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.eps</h3>
+              <article>
+                <p class="files__item-name">Uploader</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>2.7MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/psd.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.psd</h3>
+              <article>
+                <p class="files-statistics__item-name">Osama</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>15.1MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/dll.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.dll</h3>
+              <article>
+                <p class="files__item-name">Coder</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>2.2MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/png.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.png</h3>
+              <article>
+                <p class="files__item-name">Designer</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>1.1MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/pdf.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.pdf</h3>
+              <article>
+                <p class="files__item-name">Elzero</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>20/06/2020</span><span>5.5MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/avi.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.avi</h3>
+              <article>
+                <p class="files__item-name">Admin</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>12.5MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/eps.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.eps</h3>
+              <article>
+                <p class="files__item-name">Uploader</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>2.7MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/psd.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.psd</h3>
+              <article>
+                <p class="files-statistics__item-name">Osama</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>15.1MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/dll.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.dll</h3>
+              <article>
+                <p class="files__item-name">Coder</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>2.2MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/png.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.png</h3>
+              <article>
+                <p class="files__item-name">Designer</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>1.1MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/pdf.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.pdf</h3>
+              <article>
+                <p class="files__item-name">Elzero</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>20/06/2020</span><span>5.5MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/avi.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.avi</h3>
+              <article>
+                <p class="files__item-name">Admin</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>12.5MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/eps.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.eps</h3>
+              <article>
+                <p class="files__item-name">Uploader</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>2.7MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/psd.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.psd</h3>
+              <article>
+                <p class="files-statistics__item-name">Osama</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>15.1MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/dll.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.dll</h3>
+              <article>
+                <p class="files__item-name">Coder</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>2.2MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/png.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.png</h3>
+              <article>
+                <p class="files__item-name">Designer</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>1.1MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/pdf.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.pdf</h3>
+              <article>
+                <p class="files__item-name">Elzero</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>20/06/2020</span><span>5.5MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/avi.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.avi</h3>
+              <article>
+                <p class="files__item-name">Admin</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>12.5MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/eps.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.eps</h3>
+              <article>
+                <p class="files__item-name">Uploader</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>2.7MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/psd.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.psd</h3>
+              <article>
+                <p class="files-statistics__item-name">Osama</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>15.1MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/dll.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.dll</h3>
+              <article>
+                <p class="files__item-name">Coder</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>2.2MB</span>
+                </p>
+              </article>
+            </div>
+            <div class="files__item">
+              <i class="fa-solid fa-download download-icon"></i>
+              <img src="../imgs/png.svg" alt="PDF" />
+              <h3 style="color: #000; font-weight: 500">my-file.png</h3>
+              <article>
+                <p class="files__item-name">Designer</p>
+                <p
+                  style="
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                  "
+                >
+                  <span>16/05/2021</span><span>1.1MB</span>
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

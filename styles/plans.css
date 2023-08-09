@@ -1,0 +1,114 @@
+.plans__container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.plans__card{
+  width: calc(100% / 3 - 40px);
+  height: 700px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.plans__price{
+  padding: 20px;
+  text-align: center;
+  background-color: #22c55e;
+  border: 3px solid #fff;
+  outline: 3px solid #22c55e;
+}
+
+.card2 .plans__price {
+  background-color: #0075ff;
+  border: 3px solid #fff;
+  outline: 3px solid #0075ff;
+}
+
+.card3 .plans__price {
+  background-color: #f59e0b;
+  border: 3px solid #fff;
+  outline: 3px solid #f59e0b;
+}
+
+.plans__price__title {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.plans__price__price {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.plans__price__price sup {
+  font-size: 25px;
+}
+
+.plans__properties::after {
+  content: "\21";
+  float: right;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #888;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  margin-block: 15px;
+}
+
+.plans__properties i{
+  margin-right: 5px;
+}
+
+.plans__properties span{
+  display: inline-block;
+  padding-block: 15px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.plans__properties{
+  border-bottom: 1px solid #eee;
+}
+
+.plans__card button {
+  padding: 4px 10px;
+  background-color: #22c55e;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  margin: 15px 0px;
+  border-radius: 5px;
+}
+
+.card2 button {
+  background-color: #0075ff;
+}
+
+.card3 h4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #888;
+  text-align: center;
+  margin: 15px 0px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 1000px) {
+  .plans__card{
+    width: calc(100% - 40px);
+  }
+}
+@media (min-width: 1001px) and (max-width: 1400px) {
+  .plans__card{
+    width: calc(100% / 2 - 40px);
+  }
+}

@@ -1,0 +1,92 @@
+.friends-container {
+  display: grid;
+  margin: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.person p {
+  font-size: 13px;
+  color: #888;
+}
+
+.contact-icons i {
+  padding: 10px;
+  transform: translate(-10px, -10px);
+  border-radius: 50%;
+  background-color: #eee;
+  color: #888;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-icons i:hover {
+  background-color: #0075ff;
+  color: #fff;
+}
+
+.person-info {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.person-info img {
+  border-radius: 50%;
+}
+
+.person-data {
+  position: relative;
+  padding: 15px 0px 5px;
+  margin-bottom: 10px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.person-data p {
+  margin-bottom: 10px;
+  color: #000;
+  font-size: 14px;
+}
+
+.person-data p i {
+  margin-right: 5px;
+}
+
+.vip::after {
+  content: "VIP";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  padding: 5px 10px;
+  color: #f59e0b;
+  font-size: 40px;
+  transform: translateY(-50%);
+  opacity: 0.2;
+}
+
+.person-other {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.person-other button {
+  padding: 4px 10px;
+  font-size: 13px;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
