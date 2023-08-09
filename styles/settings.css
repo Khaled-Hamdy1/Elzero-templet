@@ -1,0 +1,204 @@
+.settings {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  margin: 20px;
+  gap: 20px;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.section-title {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.section-desc {
+  text-transform: capitalize;
+  color: #888;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+/* Site Control Section Styles */
+
+.site__website {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.site__website h4 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.site__website p {
+  font-size: 13px;
+  color: #888;
+  margin-top: 5px;
+}
+
+.toggle-switch {
+  background-color: #ccc;
+  width: 78px;
+  height: 32px;
+  border-radius: 16px;
+  position: relative;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.toggle-switch::before {
+  font-family: var(--fa-style-family-classic);
+  content: "\f00d";
+  font-weight: 900;
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  border-radius: 50%;
+  top: 4px;
+  left: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aaa;
+  transition: 0.3s;
+}
+
+.site__message {
+  border: 1px solid #ccc;
+  resize: none;
+  width: 100%;
+  height: 150px;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+/* General Info Section Styles */
+
+.general__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.general__form label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #888;
+}
+
+.general__form input {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.email-input {
+  width: 85%;
+  cursor: no-drop;
+  background-color: #f0f4f8;
+  color: #bbb;
+  margin-bottom: 0 !important;
+}
+
+.general__form a {
+  text-decoration: none;
+  color: #0075ff;
+}
+
+/* Security Info Section Styles */
+.security__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.security__item h4 {
+  font-weight: 400;
+}
+
+.security__item p {
+  font-size: 13px;
+  color: #888;
+  margin-top: 5px;
+  margin-bottom: 13px;
+}
+
+.security-item__password-btn {
+  padding: 4px 10px;
+  border-radius: 6px;
+  background-color: #0075ff;
+  transition: 0.3s;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.security-item__password-btn:hover {
+  background-color: #0062cc;
+}
+
+.devices {
+  background-color: #eee;
+  color: #000;
+}
+
+/* Social Info Styles */
+
+.social__item {
+  height: 40px;
+  background-color: #f6f6f6;
+  border: 1px solid #ddd;
+  padding-left: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.social__item i {
+  font-size: 16px;
+  color: #888;
+  line-height: 40px;
+  padding-right: 10px;
+  border-right: 1px solid #ddd;
+  transition: 0.3s;
+}
+
+.social__item input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 14px;
+  color: #888;
+  padding-left: 10px;
+  width: 90%;
+  height: 100%;
+}
+
+.social__item:focus-within i{
+  color: #000;
+}
+
+/* Widgets Control Styles */
+
+.widgets__form__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.widgets__form__item input {
+  width: 16px;
+  height: 16px;
+}

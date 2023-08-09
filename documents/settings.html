@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
     <link rel="stylesheet" href="../styles/master.css" />
+    <link rel="stylesheet" href="../styles/settings.css" />
     <link rel="stylesheet" href="../fontawesome/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -80,10 +81,157 @@
           </div>
           <div class="main__nav-user">
             <i class="fa-regular fa-bell fa-lg"></i>
-            <img src="../imgs/avatar.png" alt="image" width="32">
+            <img src="../imgs/avatar.png" alt="image" width="32" />
           </div>
         </nav>
         <h1 class="title">Setting</h1>
+        <div class="settings">
+          <section class="site">
+            <h2 class="section-title">site control</h2>
+            <p class="section-desc">
+              control the website if there is maintenance
+            </p>
+            <div class="site__website">
+              <div>
+                <h4>Website Control</h4>
+                <p>open/close Website And Type The Reason</p>
+              </div>
+              <div>
+                <div class="toggle-switch"></div>
+              </div>
+            </div>
+            <textarea
+              class="site__message"
+              placeholder="clone message content"
+            ></textarea>
+          </section>
+          <section class="general">
+            <h2 class="section-title">General Info</h2>
+            <p class="section-desc">
+              general information about the your account
+            </p>
+            <form class="general__form">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" placeholder="First Name" />
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" placeholder="Last Name" />
+              <label for="email">Email</label>
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                "
+              >
+                <input
+                  class="email-input"
+                  type="email"
+                  id="email"
+                  value="o@nn.sa"
+                  disabled
+                />
+                <a href="#">Change</a>
+              </div>
+            </form>
+          </section>
+          <section class="security">
+            <h2 class="section-title">security Info</h2>
+            <p class="section-desc">Security Information About Your Account</p>
+            <div class="security__item">
+              <div>
+                <h4>Password</h4>
+                <p>Last Change On 25/10/2021</p>
+              </div>
+              <button class="security-item__password-btn">Change</button>
+            </div>
+            <div class="security__item">
+              <div>
+                <h4>Two Factor Authentication</h4>
+                <p>Enable/Disable Two Factor Authentication</p>
+              </div>
+              <div>
+                <div class="toggle-switch"></div>
+              </div>
+            </div>
+            <div class="security__item" style="border: none">
+              <div>
+                <h4>Devices</h4>
+                <p>Check The Login Devices List</p>
+              </div>
+              <div>
+                <button class="security-item__password-btn devices">
+                  Devices
+                </button>
+              </div>
+            </div>
+          </section>
+          <section class="social">
+            <h2 class="section-title">Social Info</h2>
+            <p class="section-desc">Social Media Information</p>
+            <div class="social__item">
+              <i class="fa-brands fa-twitter social__item-icon"></i>
+              <input
+                type="text"
+                placeholder="Twitter Username"
+                class="social__item-input"
+              />
+            </div>
+            <div class="social__item">
+              <i class="fa-brands fa-facebook social__item-icon"></i>
+              <input
+                type="text"
+                placeholder="Facebook Username"
+                class="social__item-input"
+              />
+            </div>
+            <div class="social__item">
+              <i class="fa-brands fa-linkedin social__item-icon"></i>
+              <input
+                type="text"
+                placeholder="Linkedin Username"
+                class="social__item-input"
+              />
+            </div>
+            <div class="social__item">
+              <i class="fa-brands fa-youtube social__item-icon"></i>
+              <input
+                type="text"
+                placeholder="Youtube Username"
+                class="social__item-input"
+              />
+            </div>
+          </section>
+          <section class="widgets">
+            <h2 class="section-title">Widgets Control</h2>
+            <p class="section-desc">Show/Hide Widgets</p>
+            <form action="" class="widgets__form">
+              <div class="widgets__form__item">
+                <input type="checkbox" id="widget-1" />
+                <label for="widget-1">Quick Draft</label>
+              </div>
+              <div class="widgets__form__item">
+                <input type="checkbox" id="widget-2" />
+                <label for="widget-2">Yearly Targets</label>
+              </div>
+              <div class="widgets__form__item">
+                <input type="checkbox" id="widget-3" />
+                <label for="widget-3">Tickets Statistics</label>
+              </div>
+              <div class="widgets__form__item">
+                <input type="checkbox" id="widget-4" />
+                <label for="widget-4">Latest News</label>
+              </div>
+              <div class="widgets__form__item">
+                <input type="checkbox" id="widget-5" />
+                <label for="widget-5">Latest Tasks</label>
+              </div>
+              <div class="widgets__form__item">
+                <input type="checkbox" id="widget-6" />
+                <label for="widget-6">Top Search Items</label>
+              </div>
+            </form>
+          </section>
+        </div>
       </main>
     </div>
   </body>
