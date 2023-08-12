@@ -4,7 +4,23 @@
   outline: none;
   box-sizing: border-box;
 }
+/* Scroll bar Styles */
+::-webkit-scrollbar {
+  width: 15px;
+}
 
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0075ff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #0062cc;
+}
+/* Global Styles */
 .page {
   font-family: "Open Sans", sans-serif;
   min-height: 100vh;

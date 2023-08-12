@@ -99,7 +99,6 @@
   border-radius: 16px;
   position: relative;
   cursor: pointer;
-  transition: 1s;
   font-size: 8px;
   transition: all 0.3s ease-in-out;
 }
@@ -213,4 +212,8 @@
 .activity__item-info p {
   display: flex;
   justify-content: space-between;
+}
+
+.toggle {
+  transition: 4s ease-in-out;
 }

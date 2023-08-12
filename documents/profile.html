@@ -108,7 +108,7 @@
                 <p>Gender: <span>Male</span></p>
                 <p>Country: <span>Egypt</span></p>
                 <div class="check-box">
-                  <span onclick="toggleBtn()" class="toggle checked"></span>
+                  <span class="toggle checked"></span>
                 </div>
               </div>
               <div class="box bb">
@@ -117,7 +117,7 @@
                 <p>Phone: <span>019123456789</span></p>
                 <p>Date Of Birth: <span>25/10/1982</span></p>
                 <div class="check-box">
-                  <span onclick="toggleBtn()" class="toggle unchecked"></span>
+                  <span class="toggle unchecked"></span>
                 </div>
               </div>
               <div class="box bb">
@@ -126,7 +126,7 @@
                 <p>Programming Language: <span>Python</span></p>
                 <p>Years Of Experience: <span>15+</span></p>
                 <div class="check-box">
-                  <span onclick="toggleBtn()" class="toggle checked"></span>
+                  <span class="toggle checked"></span>
                 </div>
               </div>
               <div class="box">
@@ -135,7 +135,7 @@
                 <p>Email: <span>email@website.com</span></p>
                 <p>Subscription: <span>Monthly</span></p>
                 <div class="check-box">
-                  <span onclick="toggleBtn()" class="toggle unchecked"></span>
+                  <span class="toggle unchecked"></span>    
                 </div>
               </div>
             </div>
@@ -234,16 +234,13 @@
       </main>
     </div>
     <script>
-      function toggleBtn() {
-        let x = document.querySelector(".toggle");
-        if (x.classList.contains("checked")) {
-          x.classList.remove("checked");
-          x.classList.add("unchecked");
-        } else {
-          x.classList.remove("unchecked");
-          x.classList.add("checked");
-        }
-      }
+      const toggleBtns = document.querySelectorAll(".toggle");
+      toggleBtns.forEach(element => {
+        element.addEventListener("click", () => {
+          element.classList.toggle("checked");
+          element.classList.toggle("unchecked");
+        });
+      });
     </script>
   </body>
 </html>
