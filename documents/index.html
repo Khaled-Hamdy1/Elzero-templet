@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
     <link rel="stylesheet" href="../styles/master.css" />
+    <link rel="stylesheet" href="../styles/dashboard.css" />
     <link rel="stylesheet" href="../fontawesome/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -81,10 +82,92 @@
           </div>
           <div class="main__nav-user">
             <i class="fa-regular fa-bell fa-lg"></i>
-            <img src="../imgs/avatar.png" alt="image" width="32">
+            <img src="../imgs/avatar.png" alt="image" width="32" />
           </div>
         </nav>
         <h1 class="title">Dashboard</h1>
+        <div class="dashboard">
+          <section class="welcome">
+            <div class="welcome__header">
+              <article>
+                <h2 class="section-title">Welcome</h2>
+                <p class="section-desc">Elzero</p>
+              </article>
+              <img src="../imgs/welcome.png" alt="image" width="200px" />
+            </div>
+            <img src="../imgs/avatar.png" alt="image" class="welcome__avatar" />
+            <div class="welcome__container">
+              <div class="welcome__container__item">
+                <p class="welcome__container__item__title">Osama Elzero</p>
+                <p class="welcome__container__item__desc">Developer</p>
+              </div>
+              <div class="welcome__container__item">
+                <p class="welcome__container__item__title">80</p>
+                <p class="welcome__container__item__desc">Projects</p>
+              </div>
+              <div class="welcome__container__item">
+                <p class="welcome__container__item__title">$8500</p>
+                <p class="welcome__container__item__desc">Earned</p>
+              </div>
+            </div>
+            <a href="profile.html" class="welcome__profile-link">Profile</a>
+          </section>
+          <section class="draft">
+            <h2 class="section-title">Quick Draft</h2>
+            <p class="section-desc">Write A Draft For Your Ideas</p>
+            <form action="" class="draft__form">
+              <input type="text" placeholder="Title" />
+              <textarea placeholder="Your Thought"></textarea>
+              <button class="btn">Save</button>
+            </form>
+          </section>
+          <section class="targets">
+            <h2 class="section-title">Yearly Targets</h2>
+            <p class="section-desc">Targets Of The Year</p>
+            <div class="targets__item targets__item1">
+              <div class="targets__item__icon">
+                <i class="fa-solid fa-dollar-sign fa-lg"></i>
+              </div>
+              <div class="targets__item__info">
+                <p class="targets__item__info__title">Income</p>
+                <p class="targets__item__info__desc">$5000</p>
+                <div class="targets__item__info__progress-bar">
+                  <span class="progress-bar__value" style="width: 80%"
+                    ><span class="progress-bar__lable">80%</span></span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="targets__item targets__item2">
+              <div class="targets__item__icon">
+                <i class="fa-solid fa-code fa-lg"></i>
+              </div>
+              <div class="targets__item__info">
+                <p class="targets__item__info__title">Income</p>
+                <p class="targets__item__info__desc">$5000</p>
+                <div class="targets__item__info__progress-bar">
+                  <span class="progress-bar__value" style="width: 55%"
+                    ><span class="progress-bar__lable">55%</span></span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="targets__item targets__item3">
+              <div class="targets__item__icon">
+                <i class="fa-solid fa-user fa-lg"></i>
+              </div>
+              <div class="targets__item__info">
+                <p class="targets__item__info__title">Income</p>
+                <p class="targets__item__info__desc">$5000</p>
+                <div class="targets__item__info__progress-bar">
+                  <span class="progress-bar__value" style="width: 75%"
+                    ><span class="progress-bar__lable">75%</span></span
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
       </main>
     </div>
   </body>
