@@ -269,7 +269,6 @@ section:not(:first-child) {
   font-size: 13px;
   background-color: #eee;
   height: fit-content;
-  ;
 }
 
 .news__item__info__title {
@@ -288,4 +287,249 @@ section:not(:first-child) {
 
 .delete {
   text-decoration: line-through;
+}
+
+.search__item {
+  display: flex;
+  padding-block: 15px;
+  justify-content: space-between;
+}
+
+.search__item-keyword {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.search__item-count {
+  font-size: 13px;
+  font-weight: 400;
+  background-color: #eee;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+.search__item-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #888;
+}
+.upload__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.upload__item:not(:last-child) {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.upload__item__info {
+  display: flex;
+}
+
+.upload__item__info__desc {
+  font-size: 15px;
+  color: #888;
+}
+
+.upload__item__info img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.upload__item > span {
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background-color: #eee;
+}
+
+.progress__list {
+  position: relative;
+  list-style: none;
+  border-left: 2px solid #0075ff;
+}
+
+.progress__item {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.progress__item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -13px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #0075ff;
+  border: 2px solid white;
+  outline: 2px solid #0075ff;
+  margin-right: 15px;
+}
+
+.progress__done::before {
+  background-color: #fff;
+}
+
+.progress__still::before {
+  animation: 2s hide infinite ease-in-out;
+}
+
+@keyframes hide {
+  0% {
+    background-color: #0075ff;
+  }
+  50% {
+    background-color: #fff;
+  }
+  100% {
+    background-color: #0075ff;
+  }
+}
+
+.reminders__item {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.reminders__item-bullet {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.reminders__item__text {
+  padding-left: 15px;
+}
+
+.reminders__item__text__title {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.reminders__item__text__desc {
+  font-size: 13px;
+  color: #888;
+}
+
+.post__profile {
+  display: flex;
+  align-items: center;
+}
+
+.post__profile img {
+  width: 48px;
+  height: 48px;
+  margin-right: 15px;
+}
+
+.post__profile__info__name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.post__profile__info__date {
+  color: #888;
+}
+
+.post__content {
+  text-transform: capitalize;
+  line-height: 1.8;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  min-height: 140px;
+  margin-block: 20px;
+  padding-block: 20px;
+}
+
+.post__actions,
+.post__actions span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #888;
+  gap: 5px;
+}
+
+.media__item {
+  padding: 15px 15px 15px 70px;
+  margin-bottom: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.media__item i {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 52px;
+  height: 100%;
+  font-size: 2em;
+  font-weight: 400;
+  transform: translateY(-50%);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.media__item i:hover {
+  transform: rotate(5deg) translateY(-50%);
+}
+
+.media__link {
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.twitter-box {
+  background-color: rgb(29 161 242 / 20%);
+  color: #1da1f2;
+}
+
+.twitter-icon {
+  background-color: #1da1f2;
+}
+
+.facebook-box {
+  background-color: rgb(24 119 242 / 20%);
+  color: #1da1f2;
+}
+
+.facebook-icon {
+  background-color: #1877f2;
+}
+
+.youtube-box {
+  background-color: rgb(255 0 0 / 20%);
+  color: #ff0000;
+}
+
+.youtube-icon {
+  background-color: #ff0000;
+}
+
+.linkedin-box {
+  background-color: rgb(0 119 181 / 20%);
+  color: #0077b5;
+}
+
+.linkedin-icon {
+  background-color: #0077b5;
 }
