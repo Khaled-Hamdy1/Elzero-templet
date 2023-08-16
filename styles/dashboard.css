@@ -564,6 +564,10 @@ section:not(:first-child) {
   transition: 0.3s;
 }
 
+.projects__table tbody tr:hover td{
+  background-color: #faf6f6;
+}
+
 .table__images img:not(:first-child) {
   margin-left: -20px;
 }
