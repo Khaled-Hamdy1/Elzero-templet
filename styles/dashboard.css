@@ -580,7 +580,7 @@ section:not(:first-child) {
   background-color: white;
 }
 
-.table__btn {
+.table__status {
   padding: 4px 10px;
   border-radius: 6px;
   font-size: 13px;
