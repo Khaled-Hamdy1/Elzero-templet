@@ -533,3 +533,69 @@ section:not(:first-child) {
 .linkedin-icon {
   background-color: #0077b5;
 }
+/* Projects Table Section */
+.projects {
+  margin: 20px;
+}
+
+.table__container {
+  overflow-x: auto;
+}
+
+.projects__table {
+  min-width: 1000px;
+  width: 100%;
+  border-spacing: 0;
+  font-size: 15px;
+}
+
+.projects__table td {
+  padding: 15px;
+}
+
+.projects__table thead td {
+  background-color: #eee;
+  font-weight: bold;
+}
+
+.projects__table tbody td {
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
+  transition: 0.3s;
+}
+
+.table__images img:not(:first-child) {
+  margin-left: -20px;
+}
+
+.table__images img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  padding: 2px;
+  background-color: white;
+}
+
+.table__btn {
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #fff;
+  border: none;
+}
+
+.pending {
+  background-color: #f59e0b;
+}
+
+.inprogress {
+  background-color: #0075ff;
+}
+
+.completed {
+  background-color: #22c55e;
+}
+
+.rejected {
+  background-color: #dc3545;
+}
